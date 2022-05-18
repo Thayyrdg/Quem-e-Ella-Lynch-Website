@@ -20,7 +20,7 @@
 
   font-size: 62.5%; /* 1rem = 10px */
 
-  --nav-height: 7.2rem;
+  --nav-height: 10.2rem;
 }
 
 html {
@@ -51,8 +51,7 @@ body {
   padding-inline: 2.4rem;
 }
 .logo {
-  width:7rem;
-  
+  width: 10rem;
 }
 ul {
   list-style: none;
@@ -62,7 +61,7 @@ img {
   max-width: 90%;
 }
 section {
-  padding-block: 10rem;
+  padding-block: 7rem;
 }
 
 section header h4 {
@@ -148,9 +147,26 @@ body.menu-expanded #navigation .logo path,
   fill: white;
 }
 
-#navigation.scroll button.open-menu path[stroke*='00856F'] {
+/*configuraçao para a cor da logo on e out do .scroll*/
+#navigation.scroll ellipse.st1 {
+  fill: white;
+}
+#navigation.scroll circle.st2 {
   stroke: white;
 }
+
+#navigation.scroll button.open-menu path [stroke*='00856F'] {
+  stroke: white;
+}
+/*configuraçao para a cor da logo dentro do open-menu*/
+#navigation.scroll.logo circle.st2 {
+  stroke: white;
+}
+
+.open-menu ellipse.st1 {
+  fill: white;
+}
+
 /*=== NAV ===================*/
 nav {
   display: flex;
@@ -386,6 +402,56 @@ body.menu-expanded button path {
 
 #services .card h3 {
   margin-block: 1.6rem;
+}
+
+/*=== COMMENTS ===================*/
+#comments {
+  margin-block: 7rem;
+  padding: 2rem;
+}
+#comments .wrapper {
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: 'A B';
+  gap: 5rem;
+  overflow: hidden;
+}
+
+#comments .wrapper .content {
+  margin-left: 17rem;
+  width: 57rem;
+  padding: 3.2rem;
+  background: #fff5f5;
+  text-align: left;
+}
+
+#comments header {
+  padding-bottom: 7rem;
+}
+
+#comments .content .aspas path[fill*='#C92A2A'] {
+  fill: var(--primary-color);
+}
+
+#comments .wrapper .content p {
+  margin-left: 3rem;
+  padding-block: 2rem;
+}
+
+.img-comments-container {
+  display: flex;
+  align-items: center;
+}
+.content .img-comments-container p {
+  font-weight: bolder;
+  color: var(--primary-color);
+}
+
+#comments #comments-photo {
+  width: 45px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 3rem;
 }
 /*=== ABOUT ===================*/
 #about {
@@ -692,6 +758,8 @@ footer .social-links {
     width: 30%;
     flex-grow: 1;
   }
+
+  /*=== COMMENT ===================*/
 
   /*=== ABOUT ===================*/
   #about .wrapper {
