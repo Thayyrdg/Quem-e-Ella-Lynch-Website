@@ -404,7 +404,7 @@ body.menu-expanded button path {
   margin-block: 1.6rem;
 }
 
-#services .card a {
+#services .cards a {
   color: var(--primary-color);
   text-decoration: none;
 }
@@ -761,12 +761,6 @@ footer .social-links {
     width: 30%;
     flex-grow: 1;
   }
-
-  #services .card a {
-  color: var(--primary-color);
-  text-decoration: none;
-  }
-
   /*=== COMMENT ===================*/
 
   /*=== ABOUT ===================*/
