@@ -411,15 +411,14 @@ body.menu-expanded button path {
 }
 #comments .wrapper {
   width: 100%;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-areas: 'A B';
-  gap: 5rem;
-  overflow: hidden;
+  gap: 2rem;
 }
 
 #comments .wrapper .content {
-  margin-left: 17rem;
-  width: 57rem;
+  margin-left: 11rem;
+  width: 53rem;
   padding: 3.2rem;
   background: #fff5f5;
   text-align: left;
