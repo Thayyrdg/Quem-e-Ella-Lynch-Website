@@ -432,6 +432,11 @@ body.menu-expanded button path {
   fill: var(--primary-color);
 }
 
+#services .card a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
 #comments .wrapper .content p {
   margin-left: 3rem;
   padding-block: 2rem;
