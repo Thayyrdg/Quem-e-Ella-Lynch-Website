@@ -404,6 +404,10 @@ body.menu-expanded button path {
   margin-block: 1.6rem;
 }
 
+#services .card a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
 /*=== COMMENTS ===================*/
 #comments {
   margin-block: 7rem;
@@ -430,11 +434,6 @@ body.menu-expanded button path {
 
 #comments .content .aspas path[fill*='#C92A2A'] {
   fill: var(--primary-color);
-}
-
-#services .card a {
-  color: var(--primary-color);
-  text-decoration: none;
 }
 
 #comments .wrapper .content p {
