@@ -156,11 +156,19 @@ body.menu-expanded #navigation .logo path,
 }
 
 #navigation.scroll button.open-menu path [stroke*='00856F'] {
-  stroke: white;
+  stroke: white !important;
 }
+
+#navigation.scroll button.open-menu {
+  fill: none;
+  stroke: white !important;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+
 /*configuraçao para a cor da logo dentro do open-menu*/
 #navigation.scroll.logo circle.st2 {
-  stroke: white;
+  stroke: rgb(255, 255, 255);
 }
 
 .open-menu ellipse.st1 {
@@ -815,4 +823,33 @@ footer .social-links {
     margin-bottom: 0;
   }
 }
-/*1:33:38*/
+
+/** Logo **/
+.st0 {
+  fill: #e30613;
+}
+.st1 {
+  fill: #e30613;
+  stroke: #e30613;
+  stroke-width: 0.25;
+  stroke-miterlimit: 10;
+}
+.st2 {
+  fill: none;
+  stroke: #e30613;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+
+body.menu-expanded .st0 {
+  fill: #fff;
+}
+
+body.menu-expanded .st1 {
+  fill: #fff;
+  stroke: #fff;
+}
+
+body.menu-expanded .st2 {
+  stroke: #fff;
+}
