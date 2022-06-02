@@ -759,7 +759,7 @@ footer .social-links {
   }
 
   #services .card a {
-    color: var(--primary-color);
+  color: var(--primary-color);
   text-decoration: none;
   }
 
