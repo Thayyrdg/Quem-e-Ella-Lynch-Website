@@ -758,6 +758,11 @@ footer .social-links {
     flex-grow: 1;
   }
 
+  #services .card a {
+    color: var(--primary-color);
+  text-decoration: none;
+  }
+
   /*=== COMMENT ===================*/
 
   /*=== ABOUT ===================*/
