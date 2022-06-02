@@ -53,6 +53,7 @@ body {
 .logo {
   width: 10rem;
 }
+
 ul {
   list-style: none;
 }
@@ -145,6 +146,36 @@ body.menu-expanded #navigation .logo path,
 #navigation.scroll .logo path {
   /* COR DO LOGO NO MENU*/
   fill: white;
+}
+
+/** Logo **/
+.st0 {
+  fill: #e30613;
+}
+.st1 {
+  fill: #e30613;
+  stroke: #e30613;
+  stroke-width: 0.25;
+  stroke-miterlimit: 10;
+}
+.st2 {
+  fill: none;
+  stroke: #e30613;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+
+body.menu-expanded .st0 {
+  fill: #fff;
+}
+
+body.menu-expanded .st1 {
+  fill: #fff;
+  stroke: #fff;
+}
+
+body.menu-expanded .st2 {
+  stroke: #fff;
 }
 
 /*configuraçao para a cor da logo on e out do .scroll*/
@@ -822,34 +853,4 @@ footer .social-links {
   footer p {
     margin-bottom: 0;
   }
-}
-
-/** Logo **/
-.st0 {
-  fill: #e30613;
-}
-.st1 {
-  fill: #e30613;
-  stroke: #e30613;
-  stroke-width: 0.25;
-  stroke-miterlimit: 10;
-}
-.st2 {
-  fill: none;
-  stroke: #e30613;
-  stroke-width: 3;
-  stroke-miterlimit: 10;
-}
-
-body.menu-expanded .st0 {
-  fill: #fff;
-}
-
-body.menu-expanded .st1 {
-  fill: #fff;
-  stroke: #fff;
-}
-
-body.menu-expanded .st2 {
-  stroke: #fff;
 }
